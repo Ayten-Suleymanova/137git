@@ -1,0 +1,51 @@
+body{
+    margin:0;
+}
+.container{
+    height: 800px;
+    background-image: url(IMG.jpeg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 200px 35px 200px;
+}
+    
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+img{
+    color: white;
+}
+.item2{
+    flex-direction: column;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    color: white;
+    
+}
+ .button{
+  position: relative;
+  left: 50%;
+  
+}
+button{
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+}
